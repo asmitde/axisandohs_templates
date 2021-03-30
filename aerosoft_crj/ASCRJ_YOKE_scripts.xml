@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <scripts>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_PARK_BRAKE_on</label>
+      <script>1 (&gt;L:ASCRJ_PARK_BRAKE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_PARK_BRAKE_off</label>
+      <script>0 (&gt;L:ASCRJ_PARK_BRAKE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_EXTL_NAV_on</label>
+      <script>1 (&gt;L:ASCRJ_EXTL_NAV, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_EXTL_NAV_off</label>
+      <script>0 (&gt;L:ASCRJ_EXTL_NAV, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_EXTL_BEACON_on</label>
+      <script>1 (&gt;L:ASCRJ_EXTL_BEACON, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_EXTL_BEACON_off</label>
+      <script>0 (&gt;L:ASCRJ_EXTL_BEACON, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_EXTL_STROBE_off</label>
+      <script>0 (&gt;L:ASCRJ_EXTL_STROBE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_EXTL_STROBE_on</label>
+      <script>1 (&gt;L:ASCRJ_EXTL_STROBE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_OVHD_TAXI_on</label>
+      <script>1 (&gt;L:ASCRJ_OVHD_TAXI, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_OVHD_TAXI_off</label>
+      <script>0 (&gt;L:ASCRJ_OVHD_TAXI, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_OVHD_LDG_on</label>
+      <script>1 (&gt;L:ASCRJ_OVHD_LDG_LEFT, Number) 1 (&gt;L:ASCRJ_OVHD_LDG_NOSE, Number) 1 (&gt;L:ASCRJ_OVHD_LDG_RIGHT, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_OVHD_LDG_off</label>
+      <script>0 (&gt;L:ASCRJ_OVHD_LDG_LEFT, Number) 0 (&gt;L:ASCRJ_OVHD_LDG_NOSE, Number) 0 (&gt;L:ASCRJ_OVHD_LDG_RIGHT, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_APDISC</label>
+      <script>1 (&gt;L:ASCRJ_YOKEC_APDISC_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_YOKEC_APDISC, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_YOKEC_APDISC_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_TRIM_up</label>
+      <script>(L:ASCRJ_YOKEC_TRIM, Number) 2 &lt; if{ (L:ASCRJ_YOKEC_TRIM, Number) ++ (&gt;L:ASCRJ_YOKEC_TRIM, Number) }</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_TRIM_dn</label>
+      <script>(L:ASCRJ_YOKEC_TRIM, Number) 0 &gt; if{ (L:ASCRJ_YOKEC_TRIM, Number) -- (&gt;L:ASCRJ_YOKEC_TRIM, Number) }</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_TRIM_up_set</label>
+      <script>3 (&gt;L:ASCRJ_YOKEC_TRIM, Number) 1 (&gt;K:ELEV_TRIM_UP)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_TRIM_dn_set</label>
+      <script>-1 (&gt;L:ASCRJ_YOKEC_TRIM, Number) 1 (&gt;K:ELEV_TRIM_DN)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_TRIM_unset</label>
+      <script>1 (&gt;L:ASCRJ_YOKEC_TRIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_RTIC_rt_set</label>
+      <script>3 (&gt;L:ASCRJ_YOKEC_RTIC, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_RTIC_rt_unset</label>
+      <script>1 (&gt;L:ASCRJ_YOKEC_RTIC, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_AIL_UPR_left_set</label>
+      <script>-1 (&gt;L:ASCRJ_TRIM_AIL_UPR, Number) 1 (&gt;K:AILERON_TRIM_LEFT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_AIL_UPR_right_set</label>
+      <script>3 (&gt;L:ASCRJ_TRIM_AIL_UPR, Number) 1 (&gt;K:AILERON_TRIM_RIGHT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_AIL_UPR_unset</label>
+      <script>1 (&gt;L:ASCRJ_TRIM_AIL_UPR, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_AIL_LWR_left_set</label>
+      <script>-1 (&gt;L:ASCRJ_TRIM_AIL_LWR, Number) 1 (&gt;K:AILERON_TRIM_LEFT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_AIL_LWR_right_set</label>
+      <script>3 (&gt;L:ASCRJ_TRIM_AIL_LWR, Number) 1 (&gt;K:AILERON_TRIM_RIGHT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_AIL_LWR_unset</label>
+      <script>1 (&gt;L:ASCRJ_TRIM_AIL_LWR, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_RUD_left_set</label>
+      <script>-1 (&gt;L:ASCRJ_TRIM_RUD, Number) 1 (&gt;K:RUDDER_TRIM_LEFT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_RUD_right_set</label>
+      <script>3 (&gt;L:ASCRJ_TRIM_RUD, Number) 1 (&gt;K:RUDDER_TRIM_RIGHT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TRIM_RUD_unset</label>
+      <script>1 (&gt;L:ASCRJ_TRIM_RUD, Number)</script>
+    </Script>
+  </scripts>
+</ScriptList>
