@@ -3,13 +3,13 @@
   <JoysticksUsed>
     <TemplateDevice>
       <id>1000</id>
-      <name>Bravo Throttle Quadrant</name>
-      <guid>70ae3140-365b-11eb-8001-444553540000</guid>
+      <name>Alpha Flight Controls</name>
+      <guid>06466290-0cc8-11ea-8001-444553540000</guid>
     </TemplateDevice>
   </JoysticksUsed>
   <template>
-    <aircraftId>CRJ</aircraftId>
-    <airFileId>CRJ</airFileId>
+    <aircraftId>ASCRJ_YOKE_HCALPHA</aircraftId>
+    <airFileId>ASCRJ_YOKE_HCALPHA</airFileId>
     <buttons>
       <GlobalHotkey>
         <downEvent>
@@ -634,6 +634,121 @@
         <vkKeys />
         <Action>SYNC_FLIGHT_DIRECTOR_PITCH</Action>
       </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>CRJ</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>CRJ-ASCRJ_PARK_BRAKE_on</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>06466290-0cc8-11ea-8001-444553540000</joystickGuid>
+        <joystickName>Alpha Flight Controls</joystickName>
+        <joystickButton>31</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>CRJ-ASCRJ_PARK_BRAKE_on</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>CRJ</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>CRJ-ASCRJ_PARK_BRAKE_off</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>06466290-0cc8-11ea-8001-444553540000</joystickGuid>
+        <joystickName>Alpha Flight Controls</joystickName>
+        <joystickButton>30</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>CRJ-ASCRJ_PARK_BRAKE_off</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>CRJ</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>CRJ-ASCRJ_YOKEC_APDISC_push</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <upEvent>
+          <Group>CRJ</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>CRJ-ASCRJ_YOKEC_APDISC_release</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </upEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>06466290-0cc8-11ea-8001-444553540000</joystickGuid>
+        <joystickName>Alpha Flight Controls</joystickName>
+        <joystickButton>3</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>CRJ-ASCRJ_YOKEC_APDISC_release</Action>
+      </GlobalHotkey>
     </buttons>
     <axis />
     <overrideSaitekEvents />
@@ -747,6 +862,26 @@
       <group>CRJ</group>
       <label>ASCRJ_TRIM_AIL_UPR_right_set</label>
       <script>3 (&gt;L:ASCRJ_TRIM_AIL_UPR, Number) 1 (&gt;K:AILERON_TRIM_RIGHT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_PARK_BRAKE_on</label>
+      <script>1 (&gt;L:ASCRJ_PARK_BRAKE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_PARK_BRAKE_off</label>
+      <script>0 (&gt;L:ASCRJ_PARK_BRAKE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_APDISC_push</label>
+      <script>1 (&gt;L:ASCRJ_YOKEC_APDISC_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_YOKEC_APDISC, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_APDISC_release</label>
+      <script>0 (&gt;L:ASCRJ_YOKEC_APDISC_BTN_ANIM, Number)</script>
     </Script>
   </scripts>
 </TemplateExport>

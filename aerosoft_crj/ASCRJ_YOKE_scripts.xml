@@ -68,6 +68,16 @@
     </Script>
     <Script>
       <group>CRJ</group>
+      <label>ASCRJ_YOKEC_APDISC_push</label>
+      <script>1 (&gt;L:ASCRJ_YOKEC_APDISC_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_YOKEC_APDISC, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_YOKEC_APDISC_release</label>
+      <script>0 (&gt;L:ASCRJ_YOKEC_APDISC_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
       <label>ASCRJ_YOKEC_TRIM_up</label>
       <script>(L:ASCRJ_YOKEC_TRIM, Number) 2 &lt; if{ (L:ASCRJ_YOKEC_TRIM, Number) ++ (&gt;L:ASCRJ_YOKEC_TRIM, Number) }</script>
     </Script>
