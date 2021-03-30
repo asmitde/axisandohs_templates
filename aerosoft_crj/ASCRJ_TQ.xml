@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <scripts>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_TOGA</label>
+      <script>1 (&gt;L:ASCRJ_TQ_TOGA_1_ANIM, Number) 1 (&gt;L:ASCRJ_TQ_TOGA_1, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_TQ_TOGA_1_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_TOGA_press</label>
+      <script>1 (&gt;L:ASCRJ_TQ_TOGA_1_ANIM, Number) 1 (&gt;L:ASCRJ_TQ_TOGA_1, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_TOGA_release</label>
+      <script>0 (&gt;L:ASCRJ_TQ_TOGA_1_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_IDLE_1</label>
+      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_1, Number) (SLEEP:500) 400 (&gt;L:ASCRJ_TQ_THROTTLE_1_POS, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_IDLE_2</label>
+      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_2, Number) (SLEEP:500) 400 (&gt;L:ASCRJ_TQ_THROTTLE_2_POS, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_CUTOFF_1</label>
+      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_1, Number) (SLEEP:500) 500 (&gt;L:ASCRJ_TQ_THROTTLE_1_POS, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_CUTOFF_2</label>
+      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_2, Number) (SLEEP:500) 500 (&gt;L:ASCRJ_TQ_THROTTLE_2_POS, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_REVERSE_1_deploy</label>
+      <script>(L:ASCRJ_TQ_THROTTLE_1_POS, Number) 400 == if{ 1 (&gt;K:THROTTLE1_DECR) }</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_REVERSE_1_cut</label>
+      <script>0 (&gt;L:ASCRJ_TQ_REVERSE_1_ANIM, Number) 1 (&gt;K:THROTTLE1_CUT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_REVERSE_2_deploy</label>
+      <script>(L:ASCRJ_TQ_THROTTLE_2_POS, Number) 400 == if{ 1 (&gt;K:THROTTLE2_DECR) }</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_TQ_REVERSE_2_cut</label>
+      <script>0 (&gt;L:ASCRJ_TQ_REVERSE_2_ANIM, number) 1 (&gt;K:THROTTLE2_CUT)</script>
+    </Script>
+  </scripts>
+</ScriptList>
