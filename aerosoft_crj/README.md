@@ -3,6 +3,7 @@
 The following templates are provided in this folder:
 1. ASCRJ_YOKE_HCALPHA
 1. ASCRJ_TQ_HCBRAVO
+1. ASCRJ_FCP_HCBRAVO
 
 ## Importing and applying templates
 To import and use the templates, please follow these steps:
@@ -74,7 +75,7 @@ _Animation:_ Rudder trim knob on the lower center pedestal.
 #### **Red button (right horn):**
 _Action:_ Autopilot disconnect.
 
-_Use:_ Press disconnect the autopilot.
+_Use:_ Press twice in quick succession to disconnect the autopilot.
 
 _Animation:_ AP/SP DISC button on the yoke.
 
@@ -177,3 +178,104 @@ _Action:_ Throttle 2 to SHUT OFF/IDLE.
 _Use:_ Keep Throttle 2 lever at the lowest detent position before starting flight. This keeps Throttle 2 in SHUT OFF. To start engine 2, engage left ingition and when N2 is at 20%, push Throttle 2 lever forward from the detent position to the axis idle position. This will introduce fuel to engine 2 and move Throttle 1 to IDLE. To cut fuel and shut off engine 2, pull the lever down to the detent position (SHUT OFF).
 
 _Animation:_ Throttle 2 red lock and lever movement to SHUT OFF and IDLE.
+
+---
+## ASCRJ_FCP_HCBRAVO
+In MSFS control settings, select a profile for the Bravo TQ.
+
+### **Remove/unbind the following flight conrtrol panel switches:**
+
+1. Left Rotary Knob positions IAS/CRS/HDG/VS/ALT (Joystick Buttons 17 - 21)
+1. Right Rotary Knob positions INCR/DECR (Joystick Buttons 13 - 14)
+1. AUTOPILOT button (Joystick Button 8)
+1. HDG/NAV/APR/REV/ALT/VS/IAS buttons (Joystick Buttons 1 - 7)
+
+### **Bindings automatically applied by template:**
+
+#### **AUTOPILOT button:**
+_Press Action:_ Engage Autopilot.
+_Long Press Action:_ Toggle flight directors.
+
+_Use:_ Press to engage the Autopilot on the FCP. Long press to toggle the flight directors.
+
+_Animation:_ AP ENG button on FCP. Left FD button on FCP.
+
+#### **HDG button:**
+_Press Action:_ Toggle Heading mode.
+_Long Press Action:_ Sync current heading.
+
+_Use:_ Press to toggle heading mode on the FCP. Long press to sync heading bug to current heading.
+
+_Animation:_ HDG button on FCP. PUSH SYNC button on the heading selector knob.
+
+#### **NAV button:**
+_Press Action:_ Toggle Nav mode.
+_Long Press Action:_ Toggle 1/2 Bank mode.
+
+_Use:_ Press to toggle nav mode on the FCP. Long press to toggle 1/2 bank mode on the FCP.
+
+_Animation:_ NAV button on FCP. 1/2 BANK button on FCP.
+
+#### **APR button:**
+_Press Action:_ Toggle Approach mode.
+
+_Use:_ Press to toggle approach mode on the FCP.
+
+_Animation:_ APPR button on FCP.
+
+#### **REV button:**
+_Press Action:_ Toggle localizer backcourse mode.
+
+_Use:_ Press to toggle localizer backcourse mode on the FCP.
+
+_Animation:_ B/C button on FCP.
+
+#### **ALT button:**
+_Press Action:_ Toggle Altitude hold mode.
+
+_Use:_ Press to toggle altitude hold mode on the FCP.
+
+_Animation:_ ALT button on FCP.
+
+#### **VS button:**
+_Press Action:_ Toggle Vertical Speed mode.
+
+_Use:_ Press to toggle vertical speed mode on the FCP.
+
+_Animation:_ VS button on FCP.
+
+#### **IAS button:**
+_Press Action:_ Toggle Speed mode.
+_Long Press Action:_ Toggle IAS/MACH.
+
+_Use:_ Press to toggle speed mode on the FCP. Long press to toggle between IAS and MACH.
+
+_Animation:_ SPEED button on FCP. IAS/MACH button on the speed selector knob.
+
+#### **Left Rotary to ALT + Right Rotary DECR/INCR:**
+_Action:_ Altitude preselector bug decrease/increase.
+
+_Use:_ Set Left Rotary to ALT. Turn Right Rotary to DECR/INCR to change the preselected altitude.
+
+_Animation:_ Altitude selector knob on FCP.
+
+#### **Left Rotary to VS + Right Rotary DECR/INCR:**
+_Action:_ Vertical Speed decrease/increase.
+
+_Use:_ Set Left Rotary to VS. Turn Right Rotary to DECR/INCR to change the vertical speed. Works only when VS mode is engaged on the FCP.
+
+_Animation:_ VS selector wheel on FCP.
+
+#### **Left Rotary to HDG + Right Rotary DECR/INCR:**
+_Action:_ Heading selector bug decrease/increase.
+
+_Use:_ Set Left Rotary to HDG. Turn Right Rotary to DECR/INCR to change the heading.
+
+_Animation:_ Heading selector knob on FCP.
+
+#### **Left Rotary to CRS + Right Rotary DECR/INCR:**
+_Action:_ Course 1 selector needle decrease/increase.
+
+_Use:_ Set Left Rotary to CRS. Turn Right Rotary to DECR/INCR to change the course 1 needle.
+
+_Animation:_ CRS1 selector knob on FCP.
