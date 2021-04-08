@@ -3,6 +3,54 @@
   <scripts>
     <Script>
       <group>CRJ</group>
+      <label>AAO_LROT_SEL_alt</label>
+      <script>1 (&gt;L:AAO_LROT_SEL)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_LROT_SEL_vs</label>
+      <script>2 (&gt;L:AAO_LROT_SEL)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_LROT_SEL_hdg</label>
+      <script>3 (&gt;L:AAO_LROT_SEL)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_LROT_SEL_crs</label>
+      <script>4 (&gt;L:AAO_LROT_SEL)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_LROT_SEL_ias</label>
+      <script>5 (&gt;L:AAO_LROT_SEL)</script>
+    </Script>
+
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_RROT_ACCEL_on</label>
+      <script>1 (&gt;L:AAO_RROT_ACCEL)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_RROT_ACCEL_off</label>
+      <script>0 (&gt;L:AAO_RROT_ACCEL)</script>
+    </Script>
+
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_RROT_inc</label>
+      <script>(L:AAO_LROT_SEL) 1 == if{ (L:ASCRJ_FCP_ALT_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * + dnor (&gt;L:ASCRJ_FCP_ALT_SEL, Number) (L:AAO_RROT_ACCEL) ++ (&gt;L:ASCRJ_FCP_ALT_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 2 == if{ (L:ASCRJ_FCP_WHEEL, Number) 10 + dnor (&gt;L:ASCRJ_FCP_WHEEL, Number) 1 (&gt;L:ASCRJ_FCP_WHEEL_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 3 == if{ (L:ASCRJ_FCP_HDG_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * + dnor (&gt;L:ASCRJ_FCP_HDG_SEL, Number) (L:AAO_RROT_ACCEL) ++ (&gt;L:ASCRJ_FCP_HDG_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 4 == if{ (L:ASCRJ_FCP_CRS1_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * + dnor (&gt;L:ASCRJ_FCP_CRS1_SEL, Number) (L:AAO_RROT_ACCEL) ++ (&gt;L:ASCRJ_FCP_CRS1_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 5 == if{ (L:ASCRJ_FCP_SPEED_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * + dnor (&gt;L:ASCRJ_FCP_SPEED_SEL, Number) (L:AAO_RROT_ACCEL) ++ (&gt;L:ASCRJ_FCP_SPEED_CHANGE, Number) } } } } }</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>AAO_RROT_dec</label>
+      <script>(L:AAO_LROT_SEL) 1 == if{ (L:ASCRJ_FCP_ALT_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * - dnor (&gt;L:ASCRJ_FCP_ALT_SEL, Number) (L:AAO_RROT_ACCEL) ++ /-/ (&gt;L:ASCRJ_FCP_ALT_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 2 == if{ (L:ASCRJ_FCP_WHEEL, Number) 10 - dnor (&gt;L:ASCRJ_FCP_WHEEL, Number) -1 (&gt;L:ASCRJ_FCP_WHEEL_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 3 == if{ (L:ASCRJ_FCP_HDG_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * - dnor (&gt;L:ASCRJ_FCP_HDG_SEL, Number) (L:AAO_RROT_ACCEL) ++ /-/ (&gt;L:ASCRJ_FCP_HDG_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 4 == if{ (L:ASCRJ_FCP_CRS1_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * - dnor (&gt;L:ASCRJ_FCP_CRS1_SEL, Number) (L:AAO_RROT_ACCEL) ++ /-/ (&gt;L:ASCRJ_FCP_CRS1_CHANGE, Number) } els{ (L:AAO_LROT_SEL) 5 == if{ (L:ASCRJ_FCP_SPEED_SEL, Number) 10 (L:AAO_RROT_ACCEL) ++ * - dnor (&gt;L:ASCRJ_FCP_SPEED_SEL, Number) (L:AAO_RROT_ACCEL) ++ /-/ (&gt;L:ASCRJ_FCP_SPEED_CHANGE, Number) } } } } }</script>
+    </Script>
+
+    <Script>
+      <group>CRJ</group>
       <label>ASCRJ_FCP_CRS1_inc</label>
       <script>(L:ASCRJ_FCP_CRS1_SEL, Number) 10 + dnor (&gt;L:ASCRJ_FCP_CRS1_SEL, Number) (L:ASCRJ_FCP_CRS1_CHANGE, Number) ++ (&gt;L:ASCRJ_FCP_CRS1_CHANGE, Number)</script>
     </Script>

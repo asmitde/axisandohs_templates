@@ -189,6 +189,7 @@ In MSFS control settings, select a profile for the Bravo TQ.
 1. Right Rotary Knob positions INCR/DECR (Joystick Buttons 13 - 14)
 1. AUTOPILOT button (Joystick Button 8)
 1. HDG/NAV/APR/REV/ALT/VS/IAS buttons (Joystick Buttons 1 - 7)
+1. Rightmost switch positions (Joystick Buttons 46 - 47)
 
 ### **Bindings automatically applied by template:**
 
@@ -279,3 +280,10 @@ _Action:_ Course 1 selector needle decrease/increase.
 _Use:_ Set Left Rotary to CRS. Turn Right Rotary to DECR/INCR to change the course 1 needle.
 
 _Animation:_ CRS1 selector knob on FCP.
+
+#### **Rightmost switch to ON/OFF:**
+_Action:_ Selector acceleration on/off.
+
+_Use:_ Set ON (flick up) to enable acceleration for altitude, heading, course1 and speed selectors. Set OFF to disable acceleration. Use Right rotary to change selector values as usual.
+
+_Animation:_ None. The selector knobs turn faster when acceleration is enabled.
