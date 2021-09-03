@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <scripts>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_BARO_dec</label>
+      <script>(L:ASCRJ_RSP_BARO_SEL, Number) 10 - dnor (&gt;L:ASCRJ_RSP_BARO_SEL, Number) (L:ASCRJ_RSP_BARO_CHANGE, Number) -- (&gt;L:ASCRJ_RSP_BARO_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_BARO_inc</label>
+      <script>(L:ASCRJ_RSP_BARO_SEL, Number) 10 + dnor (&gt;L:ASCRJ_RSP_BARO_SEL, Number) (L:ASCRJ_RSP_BARO_CHANGE, Number) ++ (&gt;L:ASCRJ_RSP_BARO_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_BARO_STD</label>
+      <script>1 (&gt;L:ASCRJ_RSP_BARO_STD_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_BARO_STD, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_BARO_STD_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_BRG1</label>
+      <script>1 (&gt;L:ASCRJ_RSP_BRG1_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_BRG1, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_BRG1_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_BRG2</label>
+      <script>1 (&gt;L:ASCRJ_RSP_BRG2_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_BRG2, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_BRG2_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_HEIGHT_MODE_dh</label>
+      <script>0 (&gt;L:ASCRJ_RSP_HEIGHT_MODE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_HEIGHT_MODE_mda</label>
+      <script>1 (&gt;L:ASCRJ_RSP_HEIGHT_MODE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_HEIGHT_SEL_dec</label>
+      <script>(L:ASCRJ_RSP_HEIGHT_SEL, Number) 10 - dnor (&gt;L:ASCRJ_RSP_HEIGHT_SEL, Number) (L:ASCRJ_RSP_HEIGHT_SEL_CHANGE, Number) -- (&gt;L:ASCRJ_RSP_HEIGHT_SEL_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_HEIGHT_SEL_inc</label>
+      <script>(L:ASCRJ_RSP_HEIGHT_SEL, Number) 10 + dnor (&gt;L:ASCRJ_RSP_HEIGHT_SEL, Number) (L:ASCRJ_RSP_HEIGHT_SEL_CHANGE, Number) ++ (&gt;L:ASCRJ_RSP_HEIGHT_SEL_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_HEIGHT_SET</label>
+      <script>1 (&gt;L:ASCRJ_RSP_HEIGHT_SEL_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_HEIGHT_SET, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_HEIGHT_SEL_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_HPA_IN</label>
+      <script>1 (&gt;L:ASCRJ_RSP_HPA_IN_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_HPA_IN, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_HPA_IN_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_NAV_SOURCE_dec</label>
+      <script>(L:ASCRJ_RSP_NAV_SOURCE, Number) 10 - dnor (&gt;L:ASCRJ_RSP_NAV_SOURCE, Number) (L:ASCRJ_RSP_NAV_SOURCE_CHANGE, Number) -- (&gt;L:ASCRJ_RSP_NAV_SOURCE_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_NAV_SOURCE_inc</label>
+      <script>(L:ASCRJ_RSP_NAV_SOURCE, Number) 10 + dnor (&gt;L:ASCRJ_RSP_NAV_SOURCE, Number) (L:ASCRJ_RSP_NAV_SOURCE_CHANGE, Number) ++ (&gt;L:ASCRJ_RSP_NAV_SOURCE_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_NW_STEER_TILLER</label>
+      <script>(&gt;L:ASCRJ_RSP_NW_STEER_TILLER, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_RA_TEST</label>
+      <script>1 (&gt;L:ASCRJ_RSP_RA_TEST_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_RA_TEST, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_RA_TEST_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_RA_TEST_press</label>
+      <script>1 (&gt;L:ASCRJ_RSP_RA_TEST_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_RA_TEST, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_RA_TEST_release</label>
+      <script>0 (&gt;L:ASCRJ_RSP_RA_TEST_BTN_ANIM, Number) 0 (&gt;L:ASCRJ_RSP_RA_TEST, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_RANGE_dec</label>
+      <script>(L:ASCRJ_RSP_RANGE, Number) 10 - dnor (&gt;L:ASCRJ_RSP_RANGE, Number) (L:ASCRJ_RSP_RANGE_CHANGE, Number) -- (&gt;L:ASCRJ_RSP_RANGE_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_RANGE_inc</label>
+      <script>(L:ASCRJ_RSP_RANGE, Number) 10 + dnor (&gt;L:ASCRJ_RSP_RANGE, Number) (L:ASCRJ_RSP_RANGE_CHANGE, Number) ++ (&gt;L:ASCRJ_RSP_RANGE_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_RDR</label>
+      <script>1 (&gt;L:ASCRJ_RSP_RDR_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_RDR, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_RDR_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_SEL</label>
+      <script>1 (&gt;L:ASCRJ_RSP_SEL_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_SEL, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_SEL_BTN_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_SPEED_MODE_tgt</label>
+      <script>0 (&gt;L:ASCRJ_RSP_SPEED_MODE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_SPEED_MODE_vspds</label>
+      <script>1 (&gt;L:ASCRJ_RSP_SPEED_MODE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_SPEED_SEL_dec</label>
+      <script>(L:ASCRJ_RSP_SPEED_SEL, Number) 10 - dnor (&gt;L:ASCRJ_RSP_SPEED_SEL, Number) (L:ASCRJ_RSP_SPEED_SEL_CHANGE, Number) -- (&gt;L:ASCRJ_RSP_SPEED_SEL_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_SPEED_SEL_inc</label>
+      <script>(L:ASCRJ_RSP_SPEED_SEL, Number) 10 + dnor (&gt;L:ASCRJ_RSP_SPEED_SEL, Number) (L:ASCRJ_RSP_SPEED_SEL_CHANGE, Number) ++ (&gt;L:ASCRJ_RSP_SPEED_SEL_CHANGE, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_SPEED_SET</label>
+      <script>1 (&gt;L:ASCRJ_RSP_SPEED_SEL_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_SPEED_SET, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_SPEED_SEL_ANIM, Number)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_RSP_TFC</label>
+      <script>1 (&gt;L:ASCRJ_RSP_TERR_BTN_ANIM, Number) 1 (&gt;L:ASCRJ_RSP_TERR, Number) (SLEEP:100) 0 (&gt;L:ASCRJ_RSP_TERR_BTN_ANIM, Number)</script>
+    </Script>
+  </scripts>
+</ScriptList>
