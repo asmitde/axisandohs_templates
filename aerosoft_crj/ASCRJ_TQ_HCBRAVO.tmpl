@@ -10,6 +10,7 @@
   <template>
     <aircraftId>ASCRJ_TQ_HCBRAVO</aircraftId>
     <airFileId>ASCRJ_TQ_HCBRAVO</airFileId>
+    <loadFromMaster>false</loadFromMaster>
     <buttons>
       <GlobalHotkey>
         <downEvent>
@@ -19,6 +20,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </downEvent>
@@ -29,6 +31,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </upEvent>
@@ -51,6 +54,7 @@
         <longClickTimeoutMs>0</longClickTimeoutMs>
         <fastTurn>false</fastTurn>
         <timeoutMs>0</timeoutMs>
+        <adaptiveRepeat>false</adaptiveRepeat>
         <assignedKeys />
         <vkModifiers />
         <vkKeys />
@@ -64,6 +68,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </downEvent>
@@ -74,6 +79,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </upEvent>
@@ -96,6 +102,7 @@
         <longClickTimeoutMs>0</longClickTimeoutMs>
         <fastTurn>false</fastTurn>
         <timeoutMs>0</timeoutMs>
+        <adaptiveRepeat>false</adaptiveRepeat>
         <assignedKeys />
         <vkModifiers />
         <vkKeys />
@@ -109,6 +116,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </downEvent>
@@ -119,6 +127,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </upEvent>
@@ -141,6 +150,7 @@
         <longClickTimeoutMs>0</longClickTimeoutMs>
         <fastTurn>false</fastTurn>
         <timeoutMs>0</timeoutMs>
+        <adaptiveRepeat>false</adaptiveRepeat>
         <assignedKeys />
         <vkModifiers />
         <vkKeys />
@@ -154,6 +164,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </downEvent>
@@ -164,6 +175,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </upEvent>
@@ -186,6 +198,7 @@
         <longClickTimeoutMs>0</longClickTimeoutMs>
         <fastTurn>false</fastTurn>
         <timeoutMs>0</timeoutMs>
+        <adaptiveRepeat>false</adaptiveRepeat>
         <assignedKeys />
         <vkModifiers />
         <vkKeys />
@@ -199,6 +212,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </downEvent>
@@ -209,6 +223,7 @@
           <MinValue>0</MinValue>
           <MaxValue>0</MaxValue>
           <ValueToSet>1</ValueToSet>
+          <RollMultiplier>0</RollMultiplier>
           <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
           <type>SCRIPT</type>
         </upEvent>
@@ -231,18 +246,96 @@
         <longClickTimeoutMs>0</longClickTimeoutMs>
         <fastTurn>false</fastTurn>
         <timeoutMs>0</timeoutMs>
+        <adaptiveRepeat>false</adaptiveRepeat>
         <assignedKeys />
         <vkModifiers />
         <vkKeys />
         <Action>CRJ-ASCRJ_TQ_REVERSE_2_cut</Action>
       </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>CRJ</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>CRJ-ASCRJ_GEAR_UP</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>70ae3140-365b-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>30</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>CRJ-ASCRJ_GEAR_UP</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>CRJ</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>CRJ-ASCRJ_GEAR_DN</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <joystickGuid>70ae3140-365b-11eb-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>31</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>CRJ-ASCRJ_GEAR_DN</Action>
+      </GlobalHotkey>
     </buttons>
     <axis />
+    <overrideSaitekPanelInMidiMode />
     <overrideSaitekEvents />
+    <overrideSaitekVariables />
     <autoScripts />
     <virtualGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</virtualGaugesTemplateGuid>
     <desktopGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</desktopGaugesTemplateGuid>
     <webGaugesTemplateGuid>00000000-0000-0000-0000-000000000000</webGaugesTemplateGuid>
+    <remoteScriptIds />
   </template>
   <scripts>
     <Script>
@@ -257,8 +350,8 @@
     </Script>
     <Script>
       <group>CRJ</group>
-      <label>ASCRJ_TQ_IDLE_1</label>
-      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_1, Number) (SLEEP:500) 400 (&gt;L:ASCRJ_TQ_THROTTLE_1_POS, Number)</script>
+      <label>ASCRJ_TQ_CUTOFF_2</label>
+      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_2, Number) (SLEEP:500) 500 (&gt;L:ASCRJ_TQ_THROTTLE_2_POS, Number)</script>
     </Script>
     <Script>
       <group>CRJ</group>
@@ -272,8 +365,8 @@
     </Script>
     <Script>
       <group>CRJ</group>
-      <label>ASCRJ_TQ_CUTOFF_2</label>
-      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_2, Number) (SLEEP:500) 500 (&gt;L:ASCRJ_TQ_THROTTLE_2_POS, Number)</script>
+      <label>ASCRJ_TQ_IDLE_1</label>
+      <script>1 (&gt;L:ASCRJ_TQ_CUTOFF_1, Number) (SLEEP:500) 400 (&gt;L:ASCRJ_TQ_THROTTLE_1_POS, Number)</script>
     </Script>
     <Script>
       <group>CRJ</group>
@@ -294,6 +387,16 @@
       <group>CRJ</group>
       <label>ASCRJ_TQ_REVERSE_2_cut</label>
       <script>0 (&gt;L:ASCRJ_TQ_REVERSE_2_ANIM, number) 1 (&gt;K:THROTTLE2_CUT)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_GEAR_UP</label>
+      <script>0 (&gt;L:ASCRJ_GEAR_GEAR_LEVER, Bool)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_GEAR_DN</label>
+      <script>1 (&gt;L:ASCRJ_GEAR_GEAR_LEVER, Bool)</script>
     </Script>
   </scripts>
 </TemplateExport>

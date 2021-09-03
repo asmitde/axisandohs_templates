@@ -56,5 +56,15 @@
       <label>ASCRJ_TQ_REVERSE_2_cut</label>
       <script>0 (&gt;L:ASCRJ_TQ_REVERSE_2_ANIM, number) 1 (&gt;K:THROTTLE2_CUT)</script>
     </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_GEAR_UP</label>
+      <script>0 (&gt;L:ASCRJ_GEAR_GEAR_LEVER, Bool)</script>
+    </Script>
+    <Script>
+      <group>CRJ</group>
+      <label>ASCRJ_GEAR_DN</label>
+      <script>1 (&gt;L:ASCRJ_GEAR_GEAR_LEVER, Bool)</script>
+    </Script>
   </scripts>
 </ScriptList>
