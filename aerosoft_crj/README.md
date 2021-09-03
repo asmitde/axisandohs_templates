@@ -133,14 +133,13 @@ In MSFS control settings, create a new profile for the Bravo Throttle Quadrant.
 1. Red button on Throttle 1 (Joystick Button 30)
 1. Reverser handle buttons on Throttle 1 and 2 (Joystick Buttons 10 and 11)
 1. Axis detent buttons on Throttle 1 and 2 (Joystick Buttons 26 and 27)
+1. Gear handle (Joystick Buttons 31 and 32)
 
-### **Bind the following throttle quadrant axes/buttons:**
+### **Bind the following throttle quadrant axes:**
 1. Joystick L-Axis Y : SPOILERS AXIS
 1. Joystick R Axis-Z : THROTTLE 1 AXIS (Reverse Axis ticked)
 1. Joystick R Axis-Y : THROTTLE 1 AXIS (Reverse Axis ticked)
 1. Joystick L-Axis Z : FLAPS AXIS (-100 TO 100%)
-1. Joystick Button 31 : GEAR UP
-1. Joystick Button 32 : GEAR DOWN
 
 ### **Bindings automatically applied by template:**
 
@@ -179,11 +178,19 @@ _Use:_ Keep Throttle 2 lever at the lowest detent position before starting fligh
 
 _Animation:_ Throttle 2 red lock and lever movement to SHUT OFF and IDLE.
 
+#### **Gear Handle Up/Down:**
+_Action:_ Landing Gear up/down.
+
+_Use:_ Set to up/down.
+
+_Animation:_ Gear lever on the center pedestal.
+
+
 ---
 ## ASCRJ_FCP_HCBRAVO
 In MSFS control settings, select a profile for the Bravo TQ.
 
-### **Remove/unbind the following flight conrtrol panel switches:**
+### **Remove/unbind the following flight control panel switches:**
 
 1. Left Rotary Knob positions IAS/CRS/HDG/VS/ALT (Joystick Buttons 17 - 21)
 1. Right Rotary Knob positions INCR/DECR (Joystick Buttons 13 - 14)
